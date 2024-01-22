@@ -1,0 +1,124 @@
+.OnlineEnglish{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #4d95ea;
+    // display: flex;
+    align-items: center;
+        .container{
+            width: 1000px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+        .hero-left{
+            width: 50%;
+            height: 100%;
+            h1{
+                font-size: 62px;
+                color: #FFF;
+                font-weight: 860;
+                text-align: start;
+                margin-top: 70px;
+            }
+            button{
+                width: 196px;
+                height: 48px;
+                 border-radius: 16px;
+                font-size: 16px;
+                font-weight: 500;
+                text-align: center;
+                color: black; 
+                background: #ffc929;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+                i{
+                    font-size: 35px;
+                    font-weight: 100;
+                }
+
+            }
+        }
+        .hero-right{
+            width: 58%;
+            height: 100%;
+            img{
+                margin-top: 60px;
+            }
+        }
+        }
+        .cards{
+            width: 1000px;
+            height: 350px;
+            z-index: 99;
+            position: relative;
+            margin: 0 auto;
+            margin-top: -200px;
+            display: flex;
+            gap: 30px;
+            .card{
+               flex: 5;
+               border-radius: 16px;
+               padding: 10px;
+               background: #FFF;
+               box-shadow:  0px 10px 12px #c5c5c5,
+               -0px -0px 5px #fbfbfb;
+               .vedio{
+                width: 100%;
+                height: 75%;
+                border-radius: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 13px;
+                }
+               }
+               .abaut{
+                width: 100%;
+                height: 30px;
+                margin-top: 20px;
+                display: flex;
+                .name{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    h2{
+                        font-size: 19px;
+                        font-weight: 700;
+                    }
+                }
+                .star{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    i{
+                        color: #ffc929;
+                        font-size: 20px;
+                        margin-right: 2px;
+
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+               }
+               .countres{
+                width: 100%;
+                height: 20px;
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+               }
+            }
+
+        }
+}
